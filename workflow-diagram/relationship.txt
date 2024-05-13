@@ -1,0 +1,44 @@
+Student Entity has the following attributes
+🔑ID – primary key represented with underline
+🗝 Student ID No
+🗝 First name
+🗝 Last name
+
+Result Entity has the following attributes
+🔑ID – primary key represented with underline
+🔑Student ID – foreign key
+🔑Lesson ID – foreign key
+🗝Score
+🗝Total Item
+🗝Date Recorded
+
+Lesson Entity has the following attributes
+🔑ID – primary key represented with underline
+🗝Name
+🗝Contents
+🗝Category ID
+
+Lesson Category Entity has the following attributes
+🔑ID – primary key represented with underline
+🗝Name
+🗝Description
+
+Lesson Video Entity has the following attributes
+🔑ID – primary key represented with underline
+🔑Lesson ID – foreign key
+🗝Video File
+
+Quiz Entity has the following attributes
+🔑ID – primary key represented with underline
+🗝Lesson ID
+🗝Question
+🗝Correct Answer
+🗝Answer 1
+🗝Answer 2
+🗝Answer 3
+🗝Answer 4
+
+Lesson PDF Entity has the following attributes
+🔑ID – primary key represented with underline
+🔑Lesson ID – foreign key
+🗝PDF File
